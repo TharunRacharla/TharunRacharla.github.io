@@ -1,1 +1,7 @@
-# TharunRacharla.github.io
+# Enthusiast Data scientist
+
+### Education
+
+### Work Experience
+
+### Projects
