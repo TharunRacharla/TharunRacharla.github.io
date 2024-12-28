@@ -2139,7 +2139,7 @@ button,
     margin: 0 0 2em 4em;
     width: 50%; }
     #banner .image img {
-      height: 100%;
+      height: 80%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
@@ -2211,8 +2211,8 @@ button,
     color: inherit;
     cursor: pointer;
     display: block;
-    font-size: 0.9em;
-    padding: 0.625em 0; }
+    font-size: 0.8em;
+    padding: 0.5em 0; }
     #menu ul a:hover, #menu ul span:hover {
       color: #f56a6a; }
     #menu ul a.opener, #menu ul span.opener {
