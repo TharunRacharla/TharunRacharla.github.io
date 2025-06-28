@@ -32,13 +32,22 @@
 	);
 
 // Palette.
-	$palette: (
-		bg:					#ffffff,
-		bg-alt:				#f5f6f7,
-		fg:					#7f888f,
-		fg-bold:			#3d4449,
-		fg-light:			#9fa3a6,
-		border:				rgba(210,215,217,0.75),
-		border-bg:			transparentize(#e6ebed, 0.75),
-		accent:				#f56a6a
-	);
+$palette: (
+  // Backgrounds
+  bg:           #ffffff,      // White - Main background
+  bg-alt:       #f5f5f5,      // Light Gray - Section alt background
+
+  // Text
+  fg:           #2e2e2e,      // Dark Gray - Primary text
+  fg-bold:      #000080,      // Navy Blue - Strong headers or highlights
+  fg-light:     #7f3fbf,      // Light Violet - Secondary/hover text
+
+  // Borders
+  border:       rgba(0, 0, 0, 0.15), // Soft dark border
+  border-bg:    rgba(0, 0, 0, 0.05), // Very subtle border bg
+
+  // Accents
+  accent:       #ff9933,      // Saffron - Main accent (CTA, highlights)
+  accent-alt:   #138808,      // Green - Buttons, secondary icons
+  accent-hover: #7f3fbf       // Violet - Hover/alt accent
+);
